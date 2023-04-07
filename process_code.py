@@ -4,7 +4,7 @@ import spacy
 import gensim.downloader as api
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer, HashingVectorizer, TfidfVectorizer
-
+import en_core_web_sm
 # download spacy models
 nlp = spacy.load('en_core_web_sm')
 
